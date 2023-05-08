@@ -1,0 +1,206 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;  
+}
+
+html{
+    background-color: antiquewhite;
+}
+
+/*Nav section*/
+.nav{
+    background-color: black;
+    color: antiquewhite;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    position: fixed;
+    width: 100vw;
+}
+
+.nav img{
+    width:6vw;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0vw 8vw;
+}
+
+.email i{
+    margin: 0vw 0.5vw;
+}
+
+.links{
+    margin-top: 1.5vw;
+}
+
+.links a{
+    margin: 0vw 1vw;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.links a:hover{
+    font-weight: 700;
+}
+
+.email{
+    cursor: pointer;
+    margin: 1.5vw 2vw;
+    display: flex;
+}
+
+/*Hero section*/
+
+.hero_img{
+    width: 50vw;
+}
+
+.hero{
+    padding: 6vw 0vw;
+    display: flex;
+    align-items: center;
+}
+
+.hero_content{
+    width: 40vw;
+    margin: 0vw 7vw;
+}
+
+.hero_content h3{
+    font-size: 2.5vw;
+    margin: 2vw 0vw;
+}
+
+.hero_content p{
+    font-size: 2vw;
+}
+
+.more{
+    margin: 1.5vw 0vw;
+    color: antiquewhite;
+    background-color: black;
+    padding: 1vw;
+    border-radius: 1.5vw;
+    font-size: 2vw;
+    transition: transform 500ms;
+}
+
+.more:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: black;
+    transform: scale(1.01);
+}
+
+/*About section*/
+
+.about h2{
+    font-size: 3vw;
+    margin: 2vw;
+    text-align: center;
+}
+
+.about_content{
+    padding: 3vw;
+    width:100vw;
+    font-size: 2vw;
+}
+
+.involvements{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-around;
+    padding: 4vw 0vw;
+}
+
+.card{
+    width: 20vw;
+    background-color: #c4c0c0;
+    border: 0.3vw solid black;
+    border-radius: 0.7vw;
+    padding: 1vw 0vw;
+}
+
+.card img{
+    width: 10vw;
+    margin: 2vw 5vw; 
+}
+
+.card h3{
+    font-size: 2vw;
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+    font-size: 1.75vw;
+}
+
+/*Contact Me*/
+.contact{
+    width: 85vw;
+    margin: auto;
+    padding-bottom:2vw;
+}
+
+.contact h3{
+    font-size: 3vw;
+    margin: 2vw 0vw
+}
+
+input{
+    margin: 0.75vw 0vw;
+    background-color: rgb(250, 242, 231);
+    padding: 1vw;
+    width: 30vw;
+    border: none;
+    font-size: 1.5vw;
+}
+
+input:focus{
+    border: 0.2vw solid black;
+}
+
+.contact .more{
+    display: flex;
+    width: 20vw;
+}
+
+.more:hover{
+    border:0.2vw solid black;
+}
+
+.footer{
+    padding: 1vw;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.footer h3{
+    font-size: 3vw;
+    padding: 1vw;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    width: 60vw;
+    margin: auto;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.social i{
+    font-size: 4vw;
+}
+
+.social i:hover{
+    cursor: pointer;
+}
